@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>PlanMe Web app</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+        integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <link rel="icon" href="image/android-chrome-192x192.png">
+</head>
+
+<body>
+    <div class="todo">
+        <div class="todo_header">
+            <p class="title">TODO-LIST</p>
+        </div>
+        <div class="todo_add">
+
+            <form id="js_form">
+                <input type="text" placeholder="Create a task here.." required />
+            </form>
+            <div class="todo_body">
+
+            </div>
+            <div class="todo_footer">
+                <span class="count_items_left">0 items left</span>
+                <span class="clear_js" style="cursor: pointer;">Clear All</span>
+            </div>
+        </div>
+    </div>
+    <script src="index.js"></script>
+</body>
+
+</html>
